@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form</title>
+	<!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+	<!-- <nav>
+        <div><a href="index.html">Home</a></div>
+        <div id="form-table">
+            <span><a href="./table.html">Table</a></span>
+            <span><a href="./form.html">Form</a></span>
+        </div>
+    </nav> -->
+
+    <span><a href="index.html">Home</a></span>
+    <span><a href="./table.html">Table</a></span>
+    <span><a href="./form.html">Form</a></span>
+
+
+	<h2>Contact Us</h2>
+    <div class="form-container">
+        <form id="contactForm" action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+
+            <label for="priority">Priority:</label>
+            <select id="priority" name="priority" required>
+                <option value="">Select Priority</option>
+                <option value="high">High</option>
+                <option value="medium">Medium</option>
+                <option value="low">Low</option>
+            </select>
+            <br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <br>
+            <button type="submit">Submit</button>
+
+        </form>
+    </div>
+</body>
+</html>
