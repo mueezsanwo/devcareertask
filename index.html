@@ -1,58 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Devcareer task 1</title>
-    <!-- <link rel="stylesheet" href="./style.css"> -->
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Sanwo Mueez</title>
+    <style>
+        /* CSS styles can be added here or linked to an external stylesheet */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .form-container {
+            margin-top: 20px;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        input, select, textarea, button {
+            margin-bottom: 10px;
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+    </style>
 </head>
 <body>
-    
-    <!-- <nav>
-        <div><a href="index.html">Home</a></div>
-        <div id="form-table">
-            <span><a href="./table.html">Table</a></span>
-            <span><a href="./form.html">Form</a></span>
-        </div>
-    </nav> -->
 
+    <span><a href="index.html">Home</a></span>
+    <span><a href="./table.html">Table</a></span>
     
 
-	<h1>My Name: Sanwo Mueez <br> Email: mueezsanwo@gmail.com</h1>
+    
+    <h1>Sanwo Mueez</h1>
+    <p>Email: mueezsanwo@gmail.com</p>
     
     <hr>
 
-	<p>
-		<b>About Me:</b>
-		I am very passionate about software development and love learning and exploring new technologies.
-	</p>
-    
+    <section>
+        <h2>Summary</h2>
+        <p>
+            I am passionate about software development and love learning and exploring new technologies. My goal is to gain a comprehensive understanding of website design principles and software techniques to build dynamic and responsive websites.
+        </p>
+    </section>
 
-    <p>
-		<b>My Goal for this Diploma Course:</b> My goal is to gain a comprehensive understanding of website design principles
-        and software techniques to build dynamic and responsive websites.
-	</p>
-    <hr />
+    <section>
+        <h2>Education</h2>
+        <ul>
+            <li>Bachelor's Degree in Chemistry - University of lagos, 2019</li>
+            <li>Certification in Full Stack Web Development - Online Course, 2020</li>
+            <li>Advanced Diploma in Software Engineering - Coding Academy, 2022</li>
+        </ul>
+    </section>
 
-	<h2>Interests :</h2>
-    <ul>
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>JavaScript</li>
-        <li>Node.Js</li>
-        <li>MongoDb</li>
-        <li>Responsive Web Design</li>
-        <li>Backend Development</li>
-		<li>Data Bases</li>
-    </ul>
+    <section>
+        <h2>Job Experiences</h2>
+        <article>
+            <h3>Software Developer - Tech Solutions Ltd.</h3>
+            <p>Developed and maintained web applications using HTML, CSS, JavaScript, and React.</p>
+        </article>
+        <article>
+            <h3>Freelance Web Developer</h3>
+            <p>Worked on various client projects, creating responsive websites and web applications.</p>
+        </article>
+    </section>
 
+    <section>
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Reading tech blogs</li>
+            <li>Playing football</li>
+            <li>Exploring new coding challenges</li>
+        </ul>
+    </section>
 
-<span><a href="index.html">Home</a></span>
-<span><a href="./table.html">Table</a></span>
-<span><a href="./form.html">Form</a></span>
+    <section>
+        <h2>Other Skills</h2>
+        <div>
+            <span>Programming Languages:</span>
+            <ul>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Java</li>
+            </ul>
+        </div>
+        <div>
+            <span>Frameworks/Libraries:</span>
+            <ul>
+                <li>React.js</li>
+                <li>Express.js</li>
+                <li>Django</li>
+            </ul>
+        </div>
+        <div>
+            <span>Databases:</span>
+            <ul>
+                <li>MongoDB</li>
+                <li>MySQL</li>
+                <li>PostgreSQL</li>
+            </ul>
+        </div>
+    </section>
 
-	
+    <section>
+        <h2>Contact Us</h2>
+        <div class="form-container">
+            <form id="contactForm" action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="priority">Priority:</label>
+                <select id="priority" name="priority" required>
+                    <option value="">Select Priority</option>
+                    <option value="high">High</option>
+                    <option value="medium">Medium</option>
+                    <option value="low">Low</option>
+                </select>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
 </body>
 </html>
